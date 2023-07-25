@@ -25,77 +25,77 @@ console.log('=====================Assignment No -2 =============================
 
 console.log(`----------------Statement- 1 = Print as it is--------------------`);
 
-var string = "Hey you are doing good, keep it up";
-console.log('Print the string as it is =', string);
+var assign = "Hey you are doing good, keep it up";
+console.log('Print the string as it is =', assign);
 
 console.log(`----------------Statement- 2 = Length of the string--------------------`);
 
-var string = "Hey you are doing good, keep it up";
-var lengthstring = string.length;
-console.log('Length of the string is =', lengthstring);
+var assign = "Hey you are doing good, keep it up";
+var lengthassign = assign.length;
+console.log('Length of the string is =', lengthassign);
 
 console.log(`-----Statement- 3 = Remove the extra spaces-----`);
 
-var string = "      Hey you are doing good, keep it up     ";
-var result = string.trim();
+var assign = "      Hey you are doing good, keep it up     ";
+var result = assign.trim();
 console.log(`Remove extra spaces = ${result}`,` ||and it's lenth = ${result.length}`);
 
 console.log(`-----Statement- 4 = Print the remove the extra spaces in step-3-----`);
 
-var stringTrimStart = string.trimStart();
-var stringTrimEnd = string.trimEnd();
-var before = string.length - stringTrimStart.length;
-var after = string.length - stringTrimEnd.length;
+var assignTrimStart = assign.trimStart();
+var assignTrimEnd = assign.trimEnd();
+var before = assign.length - assignTrimStart.length;
+var after = assign.length - assignTrimEnd.length;
 var extraSpaces = before + after;
 
-console.log(`Removing the last spaces = ${stringTrimEnd}`);
-console.log(`Removing the last spaces and it's length = ${stringTrimEnd.length}`);
+console.log(`Removing the last spaces = ${assignTrimEnd}`);
+console.log(`Removing the last spaces and it's length = ${assignTrimEnd.length}`);
 console.log(`Total Number of spaces remove in Ending string = ${after}`);
-console.log(`Removing the starting spaces = ${stringTrimStart}`);
-console.log(`Removing the starting spaces and it's length = ${stringTrimStart.length}`);
+console.log(`Removing the starting spaces = ${assignTrimStart}`);
+console.log(`Removing the starting spaces and it's length = ${assignTrimStart.length}`);
 console.log(`Total Number of spaces remove in starting string = ${before}`);
 console.log(`Total Number of extra spaces removed in step 3 = ${extraSpaces}` );
 
 console.log(`-----Statement- 5 = Print the first and last character after trim-----`);
 
-var string = "Hey you are doing good, keep it up";
-var letter1 = string.charAt();
-console.log(`Print the first character after trim = ${string.charAt(0)}`);
-console.log(`Print the first character after trim = ${string.charAt(string.length-1)}`);
+var assign = "Hey you are doing good, keep it up";
+var letter1 = assign.charAt();
+console.log(`Print the first character after trim = ${assign.charAt(0)}`);
+console.log(`Print the first character after trim = ${assign.charAt(assign.length-1)}`);
 
 console.log(`-----Statement- 6 = Print the count of the total words avalable in the string-----`);
 
-var string = "Hey you are doing good, keep it up";
-var count = string.split(' ');
+var assign = "Hey you are doing good, keep it up";
+var count = assign.split(' ');  
 var words = count.length;
 
-console.log(`Given string = ${string}`);
+console.log(`Given string = ${assign}`);
 console.log(`Total number of words avalable in the string = ${words}`);
 
 console.log(`-----Statement- 7 = Print the index of the wprd "good"-----`);
 
-var string = "Hey you are doing good, keep it up";
-var index = string.indexOf('good');
+var assign = "Hey you are doing good, keep it up";
+var index = assign.indexOf('good');
 
 console.log(`Print the index of the wprd "good" = ${index}`);
 
 console.log(`-----Statement-8  = print the substracting starting from index 22-----`);
 
-var string = "Hey you are doing good, keep it up";
-var from22 = string.substring(22);
+var assign = "Hey you are doing good, keep it up";
+var from22 = assign.substring(22);
 
 console.log(`print the substracting starting from index 22 = ${from22}`);
 
 console.log(`-----Statement-9  = Check, is string ends with word "up"-----`);
 
-var string = "Hey you are doing good, keep it up";
-var check = string.includes("up");
+var assign = "Hey you are doing good, keep it up";
+var check = assign.includes("up");
 
 console.log(`Check, is string ends with word "up" = ${check}`);
 
 console.log(`-----Statement-10  = Check, is string starts with word "Hey"-----`);
 
-var string = "Hey you are doing good, keep it up";
-var check = string.includes("Hey");
+var assign = "Hey you are doing good, keep it up";
+var check = assign.includes("Hey");
 
 console.log(`Check, is string ends with word "up" = ${check}`);
